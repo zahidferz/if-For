@@ -1,0 +1,36 @@
+{
+  "name": "if-for",
+  "version": "0.1.0",
+  "description": "Traductor de idioma if-for",
+  "main": "src/zadl.js",
+  "scripts": {
+    "build": "babel src/zadl.js -d dist ",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZahidFernandez/if-For.git"
+  },
+  "keywords": [
+    "if-for"
+  ],
+  "author": "Alan Fernandez <zahid.ferz@gmail.com> (https://zaio.com.mx)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ZahidFernandez/if-For/issues"
+  },
+  "homepage": "https://github.com/ZahidFernandez/if-For#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "balanced-match": "^1.0.0"
+  }
+}
